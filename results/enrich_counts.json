@@ -1,0 +1,10 @@
+{
+  "n_env_loci": 11593,
+  "n_env_loci_pruned": 4936,
+  "n_cis_loci": 10509,
+  "n_trans_loci": 6776,
+  "n_universe": 16672,
+  "n_env_genes": 146,
+  "n_cis_env_egenes": 1923,
+  "n_joint_gene_universe": 5482
+}

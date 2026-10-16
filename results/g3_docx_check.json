@@ -1,0 +1,81 @@
+{
+  "format": "docx",
+  "verdict": "pass",
+  "checks": [
+    {
+      "id": "package",
+      "status": "pass"
+    },
+    {
+      "id": "contains",
+      "status": "pass",
+      "text": "Materials and methods"
+    },
+    {
+      "id": "contains",
+      "status": "pass",
+      "text": "(Benjamini and Hochberg 1995)"
+    },
+    {
+      "id": "contains",
+      "status": "pass",
+      "text": "1001 Genomes Consortium. 2016"
+    },
+    {
+      "id": "contains",
+      "status": "pass",
+      "text": "Table 4."
+    },
+    {
+      "id": "contains",
+      "status": "pass",
+      "text": "(8)"
+    }
+  ],
+  "summary": {
+    "paragraphs": 568,
+    "tables": [
+      {
+        "rows": 11,
+        "columns": 6
+      },
+      {
+        "rows": 23,
+        "columns": 9
+      },
+      {
+        "rows": 4,
+        "columns": 6
+      },
+      {
+        "rows": 3,
+        "columns": 14
+      },
+      {
+        "rows": 6,
+        "columns": 8
+      },
+      {
+        "rows": 6,
+        "columns": 2
+      }
+    ],
+    "sections": [
+      {
+        "page_twips": {
+          "w": "11906",
+          "h": "16838"
+        },
+        "margins_twips": {
+          "top": "1304",
+          "right": "1304",
+          "bottom": "1304",
+          "left": "1304",
+          "header": "720",
+          "footer": "720",
+          "gutter": "0"
+        }
+      }
+    ]
+  }
+}

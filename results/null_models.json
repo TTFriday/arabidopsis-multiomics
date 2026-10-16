@@ -1,0 +1,422 @@
+{
+  "panel": {
+    "n_env": 11593,
+    "n_cis": 10509,
+    "n_trans": 6776,
+    "n_both": 613,
+    "n_panel": 16672,
+    "n_env_outside_panel": 0
+  },
+  "composition": [
+    {
+      "partner": "cis",
+      "observed": 8125,
+      "expected": 7307.51181621881,
+      "ratio": 1.111869567144154,
+      "frac_target": 0.7008539635987233,
+      "frac_other": 0.4693837369560937,
+      "OR": 2.6484806195474637,
+      "p": 2.7218451914076995e-175,
+      "p_bh": 1.0887380765630798e-174,
+      "rot_mean": 7342.6115,
+      "rot_ratio": 1.1065545276363866,
+      "rot_z": 7.367081362033425,
+      "rot_p": 0.0009995002498750624,
+      "block_observed": 2935,
+      "block_expected": 2667.4057649667407,
+      "block_ratio": 1.1003200332502079,
+      "block_OR": 3.0258366847350935,
+      "block_p_bh": 2.0073846059423344e-66
+    },
+    {
+      "partner": "trans",
+      "observed": 4030,
+      "expected": 4711.742322456814,
+      "ratio": 0.8553099308492453,
+      "frac_target": 0.3476235659449668,
+      "frac_other": 0.5406576097657019,
+      "OR": 0.4527152785742757,
+      "p": 1.7341442784412254e-119,
+      "p_bh": 2.3121923712549672e-119,
+      "rot_mean": 4678.4335,
+      "rot_ratio": 0.8613994406461052,
+      "rot_z": -6.369250977870846,
+      "rot_p": 0.0009995002498750624,
+      "block_observed": 2262,
+      "block_expected": 2305.0831485587582,
+      "block_ratio": 0.981309503483336,
+      "block_OR": 0.8428855592661174,
+      "block_p_bh": 0.006963656772399986
+    },
+    {
+      "partner": "gwas",
+      "observed": 488,
+      "expected": 369.93018234165066,
+      "ratio": 1.319167841107124,
+      "frac_target": 0.0420943672906064,
+      "frac_other": 0.008663122661941327,
+      "OR": 5.02861119070034,
+      "p": 3.634716521041733e-36,
+      "p_bh": 3.634716521041733e-36,
+      "rot_mean": 370.7845,
+      "rot_ratio": 1.3161283710618972,
+      "rot_z": 5.765996550910807,
+      "rot_p": 0.0009995002498750624,
+      "block_observed": 245,
+      "block_expected": 186.71840354767184,
+      "block_ratio": 1.3121363258520367,
+      "block_OR": 12.96812749003984,
+      "block_p_bh": 4.6956156745750444e-24
+    },
+    {
+      "partner": "gwas_eqtl",
+      "observed": 2374,
+      "expected": 1850.346269193858,
+      "ratio": 1.2830031002976987,
+      "frac_target": 0.2047787457948762,
+      "frac_other": 0.05650718645402638,
+      "OR": 4.299637205846281,
+      "p": 3.609829550347098e-149,
+      "p_bh": 7.219659100694196e-149,
+      "rot_mean": 1844.063,
+      "rot_ratio": 1.2873746721234578,
+      "rot_z": 10.023192387505055,
+      "rot_p": 0.0009995002498750624,
+      "block_observed": 1026,
+      "block_expected": 809.1130820399113,
+      "block_ratio": 1.268055136883067,
+      "block_OR": 6.960029246892518,
+      "block_p_bh": 4.753642615612665e-77
+    }
+  ],
+  "n_blocks": 5412,
+  "n_env_blocks": 4010,
+  "class_table": {
+    "False": {
+      "cis only": 2333,
+      "cis+trans": 51,
+      "trans only": 2695
+    },
+    "True": {
+      "cis only": 7563,
+      "cis+trans": 562,
+      "trans only": 3468
+    }
+  },
+  "class_chi2": {
+    "stat": 875.496939257373,
+    "df": 2,
+    "p": 7.731347228947225e-191
+  },
+  "clustering": {
+    "observed_frac_lt1kb": 0.5697403605624084,
+    "observed_median_nn": 613.0,
+    "null_frac_mean": 0.5145021133442594,
+    "null_frac_sd": 0.0034965859354248088,
+    "null_median_nn_mean": 920.801,
+    "null_median_nn_sd": 19.070956950294864,
+    "z": 15.797766232059711,
+    "p_emp": 0.000999000999000999,
+    "panel_frac_lt1kb": 0.5899112284069098,
+    "panel_median_nn": 554.0,
+    "n_draws": 1000
+  },
+  "regulatory_class": {
+    "table": [
+      {
+        "cls": "cis only",
+        "n": 7563,
+        "median_breadth": 5.0,
+        "mean_breadth": 5.857463969324342,
+        "median_max": 0.538808531,
+        "median_mean": 0.4378928926,
+        "mean_mean": 0.4532230890548452
+      },
+      {
+        "cls": "cis+trans",
+        "n": 562,
+        "median_breadth": 7.0,
+        "mean_breadth": 6.830960854092527,
+        "median_max": 0.8487916545,
+        "median_mean": 0.6338561186818181,
+        "mean_mean": 0.6864503404447322
+      },
+      {
+        "cls": "trans only",
+        "n": 3468,
+        "median_breadth": 5.0,
+        "mean_breadth": 5.8431372549019605,
+        "median_max": 0.8185144074999999,
+        "median_mean": 0.6468752360000001,
+        "mean_mean": 0.7004023636341127
+      }
+    ],
+    "n_rows_equals_n_env": true,
+    "breadth_median": 5.0,
+    "breadth_max": 19,
+    "noncis_median_max": 0.8185144074999999,
+    "cis_median_max": 0.55538682,
+    "noncis_median_mean": 0.6468752360000001,
+    "cis_median_mean": 0.448377688,
+    "mw_max_p": 0.0,
+    "mw_mean_p": 0.0,
+    "kw_breadth_H": 41.90416690454942,
+    "kw_breadth_p": 7.954736024673462e-10,
+    "kw_mean_H": 3858.822905705321,
+    "kw_mean_p": 0.0
+  },
+  "gene_layer_counts": {
+    "1": 2635,
+    "2": 2315,
+    "3": 464,
+    "4": 64,
+    "5": 4
+  },
+  "gene_measured": {
+    "n_genes": 5482,
+    "n_env_genes": 2267,
+    "median_dist": 7523.0,
+    "frac_within": 0.5737082722332442,
+    "set_sizes": {
+      "environment": 2267,
+      "cis_eGene": 803,
+      "trans_eGene": 122,
+      "methylation": 737,
+      "trait_TWAS": 5004
+    },
+    "tests": [
+      {
+        "layer_a": "cis_eGene",
+        "layer_b": "trait_TWAS",
+        "n_both": 503,
+        "n_a": 803,
+        "n_b": 5004,
+        "OR": 0.06630674664889284,
+        "p": 9.374466153998836e-148,
+        "p_bh": 9.374466153998837e-147
+      },
+      {
+        "layer_a": "methylation",
+        "layer_b": "trait_TWAS",
+        "n_both": 522,
+        "n_a": 737,
+        "n_b": 5004,
+        "OR": 0.14246754459699262,
+        "p": 4.030641454666354e-72,
+        "p_bh": 2.015320727333177e-71
+      },
+      {
+        "layer_a": "cis_eGene",
+        "layer_b": "trans_eGene",
+        "n_both": 97,
+        "n_a": 803,
+        "n_b": 122,
+        "OR": 25.577223796033994,
+        "p": 1.3619954234262069e-59,
+        "p_bh": 4.539984744754023e-59
+      },
+      {
+        "layer_a": "trans_eGene",
+        "layer_b": "trait_TWAS",
+        "n_both": 61,
+        "n_a": 122,
+        "n_b": 5004,
+        "OR": 0.08436172364960551,
+        "p": 1.844729065384356e-33,
+        "p_bh": 4.61182266346089e-33
+      },
+      {
+        "layer_a": "environment",
+        "layer_b": "methylation",
+        "n_both": 341,
+        "n_a": 2267,
+        "n_b": 737,
+        "OR": 1.260369793469482,
+        "p": 0.00379402032176157,
+        "p_bh": 0.00758804064352314
+      },
+      {
+        "layer_a": "environment",
+        "layer_b": "cis_eGene",
+        "n_both": 367,
+        "n_a": 2267,
+        "n_b": 803,
+        "OR": 1.2311600676001933,
+        "p": 0.0074265836576053006,
+        "p_bh": 0.012333389137686248
+      },
+      {
+        "layer_a": "environment",
+        "layer_b": "trait_TWAS",
+        "n_both": 2042,
+        "n_a": 2267,
+        "n_b": 5004,
+        "OR": 0.7751909370545427,
+        "p": 0.008633372396380373,
+        "p_bh": 0.012333389137686248
+      },
+      {
+        "layer_a": "trans_eGene",
+        "layer_b": "methylation",
+        "n_both": 22,
+        "n_a": 122,
+        "n_b": 737,
+        "OR": 1.4292307692307693,
+        "p": 0.13926780293447855,
+        "p_bh": 0.1618069934629474
+      },
+      {
+        "layer_a": "cis_eGene",
+        "layer_b": "methylation",
+        "n_both": 121,
+        "n_a": 803,
+        "n_b": 737,
+        "OR": 1.1702188940092166,
+        "p": 0.14562629411665268,
+        "p_bh": 0.1618069934629474
+      },
+      {
+        "layer_a": "environment",
+        "layer_b": "trans_eGene",
+        "n_both": 55,
+        "n_a": 2267,
+        "n_b": 122,
+        "OR": 1.1682545680278535,
+        "p": 0.40406274266028086,
+        "p_bh": 0.40406274266028086
+      }
+    ]
+  },
+  "gene_frame": {
+    "n_frame": 18612,
+    "n_observed": 5482,
+    "n_imputed": 13130
+  },
+  "hit_rate": {
+    "n_sites": 1222388,
+    "n_genes": 16897,
+    "n_traits": 47,
+    "n_meth_higher": 18,
+    "W": 466.0,
+    "p": 0.3052008343870085,
+    "median_log2_ratio": -0.4913050740857192,
+    "by_class": {
+      "climate": 0.855879376419699,
+      "ionome": -0.37725175534595323,
+      "other": -3.2682143793102703,
+      "phenology": -3.88976599914638,
+      "seed": 2.73247014852459
+    },
+    "rows_equal_significant": true,
+    "cohorts": {
+      "study34": 17,
+      "study16": 14,
+      "study2": 7,
+      "study38": 4,
+      "study1,study12": 2,
+      "study1": 1,
+      "study1,study16": 1,
+      "study19": 1
+    }
+  },
+  "gwas_eqtl": {
+    "n_pairs": 286032,
+    "min_ld": 0.500008741,
+    "n_eqtl_loci": 2661,
+    "n_env_eqtl_loci": 2374,
+    "n_gwas_loci": 6968,
+    "gwas_loci_in_gwas": 1,
+    "median_ld_env": 0.549066421,
+    "median_ld_non": 0.602427389,
+    "mw_p": 0.0,
+    "n_env_pairs": 272682,
+    "n_non_pairs": 13350
+  },
+  "three_layer": {
+    "n": 40,
+    "spearman": {
+      "med_meth_absr|med_gene_absr": {
+        "rho": 0.80093808630394,
+        "p": 5.432071517262865e-10
+      },
+      "med_meth_absr|med_path_absr": {
+        "rho": 0.8227016885553472,
+        "p": 7.377129848043208e-11
+      },
+      "med_gene_absr|med_path_absr": {
+        "rho": 0.8737335834896812,
+        "p": 1.8639111219116783e-13
+      },
+      "n_meth_sig|n_gene_sig": {
+        "rho": 0.49601275917065396,
+        "p": 0.0011343722904969735
+      },
+      "n_meth_sig|n_pathway_sig": {
+        "rho": 0.6814442838472123,
+        "p": 1.2956432374561719e-06
+      },
+      "n_gene_sig|n_pathway_sig": {
+        "rho": 0.5565175818732706,
+        "p": 0.00019216590764219028
+      }
+    }
+  },
+  "threshold": {
+    "floor": {
+      "EWAS": {
+        "min_abs_r": 0.300000016206981,
+        "frac_lt_030": 0.0,
+        "n_studies": 14,
+        "n_studies_floor_030": 5
+      },
+      "TWAS": {
+        "min_abs_r": 0.300000448,
+        "frac_lt_030": 0.0,
+        "n_studies": 11,
+        "n_studies_floor_030": 4
+      }
+    },
+    "min_meth_gt_expr": 6,
+    "w_min": 228.0,
+    "p_min": 0.0002348121884097054,
+    "excess_meth_larger": 33,
+    "w_excess": 282.0,
+    "p_excess": 0.00235828791058168,
+    "rho_min": 0.8685245143385754,
+    "rho_median": 0.6170212765957447,
+    "rho_excess": 0.4162812210915819,
+    "p_rho_excess": 0.0036096143651515246,
+    "by_class": [
+      {
+        "trait_class": "climate",
+        "n": 16,
+        "meth_larger": 16,
+        "median_diff": 0.032365976249999984
+      },
+      {
+        "trait_class": "ionome",
+        "n": 14,
+        "meth_larger": 7,
+        "median_diff": -4.424494373223009e-05
+      },
+      {
+        "trait_class": "other",
+        "n": 11,
+        "meth_larger": 4,
+        "median_diff": -0.011131390000000019
+      },
+      {
+        "trait_class": "phenology",
+        "n": 5,
+        "meth_larger": 5,
+        "median_diff": 0.06352513199999993
+      },
+      {
+        "trait_class": "seed",
+        "n": 1,
+        "meth_larger": 1,
+        "median_diff": 0.02997954900000005
+      }
+    ]
+  }
+}

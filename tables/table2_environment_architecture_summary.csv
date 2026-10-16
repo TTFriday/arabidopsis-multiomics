@@ -1,0 +1,11 @@
+statistic,value,note
+Environment-associated loci,"11,593",distinct chr<N>_<pos> loci
+Environmental associations,"68,403","FDR < 0.05, 22 environmental variables"
+Assayed locus universe,"16,672","union of environment, cis and trans locus sets"
+Median nearest-neighbour distance,613 bp,"vs 1,031 bp in matched random draws"
+Loci with nearest neighbour < 1 kb,57.0%,vs 34.8% +/- 0.3% expected (z = 87)
+Overlap with cis-eQTL loci,"8,125 (70.1%)","expected 5,280 +/- 40; 1.54x, z = 70.3"
+Overlap after 5 kb linkage pruning,"3,172 / 4,936","expected 2,677; 1.18x, z = 16.4"
+Overlap with trans-eQTL loci,"4,030 (34.8%)","expected 3,376; 1.19x, z = 18.9"
+Genes within 10 kb of an env. locus,"4,602","median distance 1,955 bp"
+Env. genes also cis-eQTL target genes,737,"OR 1.22, BH p = 5.5e-5"

@@ -1,0 +1,188 @@
+{
+  "display": {
+    "1": {
+      "desc": "Benjamini-Hochberg adjustment",
+      "latex": "$q_i \\;=\\; \\min\\,\\{\\, m \\cdot P_j / j \\;:\\; 1 \\leq i \\leq j \\leq m \\,\\}$",
+      "png": "eq_display_1.png",
+      "width_in": 3.175,
+      "height_in": 0.2483
+    },
+    "2": {
+      "desc": "gene coordinate from intragenic SNPs",
+      "latex": "$\\mathrm{pos}(g) \\;=\\; \\mathrm{median}\\,\\{\\, x_s \\;:\\; s \\in S(g) \\,\\}$",
+      "png": "eq_display_2.png",
+      "width_in": 2.8883,
+      "height_in": 0.24
+    },
+    "3": {
+      "desc": "per-chromosome calibration of gene position",
+      "latex": "$\\mathrm{cpos}(g) \\;=\\; a^{c} \\,+\\, b^{c}\\,\\mathrm{num}(g)$",
+      "png": "eq_display_3.png",
+      "width_in": 2.2767,
+      "height_in": 0.1977
+    },
+    "4": {
+      "desc": "matched-null overlap and its expectation",
+      "latex": "$O = |A \\cap B| \\,;\\qquad E[O] \\;=\\; \\frac{1}{N}\\sum_{k}\\left|A_{(k)} \\cap B\\right|$",
+      "png": "eq_display_4.png",
+      "width_in": 3.4317,
+      "height_in": 0.4067
+    },
+    "5": {
+      "desc": "standardised excess over the matched null",
+      "latex": "$z \\;=\\; \\dfrac{O - E[O]}{\\mathrm{sd}(O)}$",
+      "png": "eq_display_5.png",
+      "width_in": 1.2283,
+      "height_in": 0.4767
+    },
+    "6": {
+      "desc": "Jaccard index of two feature sets",
+      "latex": "$J(A,B) \\;=\\; \\dfrac{|A \\cap B|}{|A \\cup B|}$",
+      "png": "eq_display_6.png",
+      "width_in": 1.615,
+      "height_in": 0.4767
+    },
+    "7": {
+      "desc": "odds ratio for 2x2 enrichment tables",
+      "latex": "$\\mathrm{OR} \\;=\\; \\dfrac{n_{11}\\,n_{00}}{n_{10}\\,n_{01}}$",
+      "png": "eq_display_7.png",
+      "width_in": 1.2167,
+      "height_in": 0.385
+    },
+    "8": {
+      "desc": "partial Spearman correlation",
+      "latex": "$r_{XY\\cdot Z} \\;=\\; \\mathrm{cor}\\left(\\, \\tilde{r}_X,\\; \\tilde{r}_Y \\,\\right)$",
+      "png": "eq_display_8.png",
+      "width_in": 1.8183,
+      "height_in": 0.1944
+    }
+  },
+  "inline": {
+    "P_i_sorted": {
+      "latex": "$P_{(1)} \\leq \\cdots \\leq P_{(m)}$",
+      "png": "eq_inline_P_i_sorted.png",
+      "width_in": 1.0283,
+      "height_in": 0.1711
+    },
+    "q_i": {
+      "latex": "$q_i$",
+      "png": "eq_inline_q_i.png",
+      "width_in": 0.115,
+      "height_in": 0.1528
+    },
+    "alpha": {
+      "latex": "$\\alpha$",
+      "png": "eq_inline_alpha.png",
+      "width_in": 0.0983,
+      "height_in": 0.1528
+    },
+    "P_j": {
+      "latex": "$P_j$",
+      "png": "eq_inline_P_j.png",
+      "width_in": 0.1517,
+      "height_in": 0.1611
+    },
+    "S_g": {
+      "latex": "$S(g)$",
+      "png": "eq_inline_S_g.png",
+      "width_in": 0.2867,
+      "height_in": 0.1544
+    },
+    "num_g": {
+      "latex": "$\\mathrm{num}(g)$",
+      "png": "eq_inline_num_g.png",
+      "width_in": 0.49,
+      "height_in": 0.1544
+    },
+    "cpos_g": {
+      "latex": "$\\mathrm{cpos}(g)$",
+      "png": "eq_inline_cpos_g.png",
+      "width_in": 0.4817,
+      "height_in": 0.1544
+    },
+    "a_c": {
+      "latex": "$a^{c}$",
+      "png": "eq_inline_a_c.png",
+      "width_in": 0.1533,
+      "height_in": 0.1528
+    },
+    "b_c": {
+      "latex": "$b^{c}$",
+      "png": "eq_inline_b_c.png",
+      "width_in": 0.1467,
+      "height_in": 0.1528
+    },
+    "R_g": {
+      "latex": "$R(g)$",
+      "png": "eq_inline_R_g.png",
+      "width_in": 0.3083,
+      "height_in": 0.1544
+    },
+    "N_perm": {
+      "latex": "$N$",
+      "png": "eq_inline_N_perm.png",
+      "width_in": 0.1233,
+      "height_in": 0.1528
+    },
+    "O_E": {
+      "latex": "$O$",
+      "png": "eq_inline_O_E.png",
+      "width_in": 0.1167,
+      "height_in": 0.1528
+    },
+    "E_O": {
+      "latex": "$E[O]$",
+      "png": "eq_inline_E_O.png",
+      "width_in": 0.315,
+      "height_in": 0.1544
+    },
+    "sd_O": {
+      "latex": "$\\mathrm{sd}(O)$",
+      "png": "eq_inline_sd_O.png",
+      "width_in": 0.3817,
+      "height_in": 0.1544
+    },
+    "n_11": {
+      "latex": "$n_{11}$",
+      "png": "eq_inline_n_11.png",
+      "width_in": 0.2083,
+      "height_in": 0.1528
+    },
+    "r_X": {
+      "latex": "$r_X$",
+      "png": "eq_inline_r_X.png",
+      "width_in": 0.1667,
+      "height_in": 0.1528
+    },
+    "x_s": {
+      "latex": "$x_s$",
+      "png": "eq_inline_x_s.png",
+      "width_in": 0.1467,
+      "height_in": 0.1528
+    },
+    "pos_g": {
+      "latex": "$\\mathrm{pos}(g)$",
+      "png": "eq_inline_pos_g.png",
+      "width_in": 0.4133,
+      "height_in": 0.1544
+    },
+    "z_stat": {
+      "latex": "$z$",
+      "png": "eq_inline_z_stat.png",
+      "width_in": 0.0717,
+      "height_in": 0.1528
+    },
+    "m_tests": {
+      "latex": "$m$",
+      "png": "eq_inline_m_tests.png",
+      "width_in": 0.135,
+      "height_in": 0.1528
+    },
+    "n_exceed": {
+      "latex": "$n$",
+      "png": "eq_inline_n_exceed.png",
+      "width_in": 0.0933,
+      "height_in": 0.1528
+    }
+  }
+}

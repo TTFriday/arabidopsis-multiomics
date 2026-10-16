@@ -1,0 +1,193 @@
+{
+  "methylation_sites": {
+    "ewas_unique": 1222388,
+    "emqtl_unique": 109260,
+    "epathway_unique": 31637,
+    "ewas_and_emqtl": 91258,
+    "ewas_and_epathway": 27347,
+    "emqtl_and_epathway": 7728,
+    "all_three": 7247,
+    "jaccard_ewas_epathway": 0.02229354402703888
+  },
+  "methylation_site_annotation": {
+    "n": 1244199,
+    "n_parseable": 1244199,
+    "chrom_counts": {
+      "1": 260225,
+      "2": 244145,
+      "3": 250406,
+      "4": 208086,
+      "5": 281337
+    },
+    "context_counts": {
+      "CG": 1043262,
+      "CHG": 155647,
+      "CHH": 45290
+    }
+  },
+  "phenotype_overlap": {
+    "n_twas": 145,
+    "n_ewas": 114,
+    "n_ppathway": 88,
+    "n_gwas": 248,
+    "n_gwaseqtl": 94,
+    "twas_and_ewas": 79,
+    "twas_and_ppathway": 82,
+    "ewas_and_ppathway": 42,
+    "twas_ewas_ppathway": 40,
+    "twas_and_gwas": 119,
+    "twas_and_gwaseqtl": 55,
+    "ppathway_and_gwas": 70,
+    "env_in_gwas": 0,
+    "env_in_twas": 0,
+    "env_in_ewas": 0,
+    "env_in_gwaseqtl": 0,
+    "env_vars": [
+      "Elevation",
+      "Latitude",
+      "Longitude",
+      "bio1",
+      "bio10",
+      "bio11",
+      "bio12",
+      "bio13",
+      "bio14",
+      "bio15",
+      "bio16",
+      "bio17",
+      "bio18",
+      "bio19",
+      "bio2",
+      "bio3",
+      "bio4",
+      "bio5",
+      "bio6",
+      "bio7",
+      "bio8",
+      "bio9"
+    ],
+    "example_twas_ewas": [
+      "0W GH FT",
+      "2W",
+      "As75",
+      "B11",
+      "CL",
+      "Cd111",
+      "Co59",
+      "Cu65",
+      "DTF spain 2008 (2nd experiment)",
+      "DTF spain 2009 (1st experiment)",
+      "DTF spain 2009 (2nd experiment)",
+      "DTF sweden 2008 (1st experiment)",
+      "DTF sweden 2008 (2nd experiment)",
+      "DTF sweden 2009 (1st experiment)",
+      "DTF sweden 2009 (2nd experiment)"
+    ],
+    "example_twas_ewas_ppath": [
+      "2W",
+      "As75",
+      "Cd111",
+      "Co59",
+      "Cu65",
+      "DTF spain 2008 (2nd experiment)",
+      "DTF spain 2009 (1st experiment)",
+      "DTF spain 2009 (2nd experiment)",
+      "DTF sweden 2009 (1st experiment)",
+      "DTFmainEffect2009",
+      "DTFplantingSummer2009",
+      "GR21",
+      "K39",
+      "Mg25",
+      "Mn55"
+    ]
+  },
+  "gene_overlap": {
+    "sizes": {
+      "emqtl": 2645,
+      "ciseqtl": 2643,
+      "transeqtl": 580,
+      "twas": 16897,
+      "gwas_annot": 8376
+    },
+    "emqtl_and_ciseqtl": 387,
+    "emqtl_and_twas": 1799,
+    "twas_and_ciseqtl": 1694,
+    "twas_and_transeqtl": 220,
+    "emqtl_and_twas_and_ciseqtl": 257,
+    "gwas_annot_and_twas": 5004,
+    "gwas_annot_and_emqtl": 737
+  },
+  "pathway_overlap": {
+    "n_epathway": 375,
+    "n_ppathway": 403,
+    "shared": 286,
+    "shared_examples": [
+      "ARG-PRO-PWY",
+      "ARGASEDEG-PWY",
+      "ARGDEG-V-PWY",
+      "ARGSPECAT-PWY",
+      "ARGSYN-PWY",
+      "ASPARTATE-DEG1-PWY",
+      "ASPARTATESYN-PWY",
+      "ASPASN-ARA-PWY",
+      "ASPSYNII-PWY",
+      "BSUBPOLYAMSYN-PWY"
+    ]
+  },
+  "locus_parse": {
+    "environmenteqtl_eQTL": 68403,
+    "ciseqtl_SNP": 11796,
+    "transeqtl_SNP": 10118,
+    "gwaseqtl_eQTL": 286032,
+    "gwaseqtl_GWAS": 286032,
+    "gwas_SNP": 89807,
+    "gwas_SNP_total": 89884
+  },
+  "eqtl_key_overlap": {
+    "environmenteqtl_x_gwaseqtl_eQTL": 2374,
+    "n_environmenteqtl": 11593,
+    "n_gwaseqtl_eqlt": 2661
+  },
+  "gwaseqtl_x_gwas_loci": 6968,
+  "studies": {
+    "ewas": {
+      "study16": 3803909,
+      "study34": 138965,
+      "study19": 27405,
+      "study2": 11478,
+      "study22": 5834,
+      "study1": 2501,
+      "study38": 1320,
+      "study36": 713,
+      "study12": 543,
+      "study31": 372,
+      "study4": 209,
+      "study46": 125,
+      "study29": 2,
+      "study30": 2
+    },
+    "twas": {
+      "study16": 53237,
+      "study34": 5252,
+      "study2": 3586,
+      "study38": 232,
+      "study1": 215,
+      "study12": 115,
+      "study19": 57,
+      "study31": 34,
+      "study43": 9,
+      "study46": 9,
+      "study29": 8
+    },
+    "ppathway": {
+      "study16": 969,
+      "study34": 327,
+      "study2": 27,
+      "study1": 13,
+      "study19": 13,
+      "study22": 3,
+      "study18": 2
+    },
+    "gwas_numeric_study_n": 254
+  }
+}

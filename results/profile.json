@@ -1,0 +1,1829 @@
+{
+  "emqtl": {
+    "name": "emqtl",
+    "source_file": "emqtl.csv",
+    "n_rows": 265776,
+    "n_cols": 5,
+    "columns": [
+      "Gene",
+      "Methylation",
+      "Pearson",
+      "Pvalue",
+      "FDR"
+    ],
+    "memory_mb": 38.2,
+    "fields": {
+      "Gene": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 2645,
+        "top_values": {
+          "AT5G32460": 12143,
+          "AT5G34810": 11240,
+          "AT5G34790": 11093,
+          "AT5G34795": 10441,
+          "AT5G34800": 10421
+        },
+        "examples": [
+          "AT1G01040",
+          "AT1G01190",
+          "AT1G01290",
+          "AT1G01350",
+          "AT1G01660"
+        ]
+      },
+      "Methylation": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 109260,
+        "top_values": {
+          "5_22601552_CG": 55,
+          "3_13587694_CG": 34,
+          "5_8420640_CG": 21,
+          "5_14209136_CG": 17,
+          "1_14302383_CG": 16
+        },
+        "examples": [
+          "1_107_CHG",
+          "1_108_CG",
+          "1_109_CG",
+          "1_114_CG",
+          "1_115_CG"
+        ]
+      },
+      "Pearson": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 265655,
+        "stats": {
+          "count": 265776.0,
+          "mean": 0.11329675291611357,
+          "std": 0.3683227784222082,
+          "min": -0.810779324,
+          "25%": -0.32537894775,
+          "50%": 0.324276774,
+          "75%": 0.3832154675,
+          "max": 0.88356542
+        }
+      },
+      "Pvalue": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 34195,
+        "stats": {
+          "count": 265776.0,
+          "mean": 1.2508202383640496e-15,
+          "std": 3.691673986387038e-15,
+          "min": 8.88e-206,
+          "25%": 1.01e-26,
+          "50%": 2.56e-20,
+          "75%": 1.09e-16,
+          "max": 2.32e-14
+        }
+      },
+      "FDR": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 34990,
+        "stats": {
+          "count": 265776.0,
+          "mean": 2.8654199983220745e-11,
+          "std": 3.7425268505133916e-10,
+          "min": 7.300000000000001e-200,
+          "25%": 1.2499999999999999e-23,
+          "50%": 2.3e-17,
+          "75%": 9.6925e-14,
+          "max": 1.87e-08
+        }
+      }
+    }
+  },
+  "epathway": {
+    "name": "epathway",
+    "source_file": "epathway.csv",
+    "n_rows": 122344,
+    "n_cols": 8,
+    "columns": [
+      "Pathway",
+      "Methylation",
+      "Pearson",
+      "Pvalue_Pearson",
+      "FDR_Pearson",
+      "Spearman",
+      "Pvalue_Spearman",
+      "FDR_Spearman"
+    ],
+    "memory_mb": 20.6,
+    "fields": {
+      "Pathway": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 375,
+        "top_values": {
+          "PWY-5267": 12291,
+          "PWYQT-4471": 6005,
+          "PWY-7618": 5057,
+          "PWY-63": 4824,
+          "PWY-5410": 4557
+        },
+        "examples": [
+          "ARGASEDEG-PWY",
+          "ARGDEG-V-PWY",
+          "ARG-PRO-PWY",
+          "ARGSPECAT-PWY",
+          "ARGSYN-PWY"
+        ]
+      },
+      "Methylation": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 31637,
+        "top_values": {
+          "2_14402954_CHG": 78,
+          "2_14402737_CG": 71,
+          "2_14402768_CG": 71,
+          "2_14402938_CG": 67,
+          "2_14402826_CG": 56
+        },
+        "examples": [
+          "4_5647239_CG",
+          "4_5647642_CG",
+          "4_5650372_CHH",
+          "4_5650408_CHH",
+          "4_5650410_CHH"
+        ]
+      },
+      "Pearson": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 111436,
+        "stats": {
+          "count": 122344.0,
+          "mean": -0.017502660259530504,
+          "std": 0.2259590425540234,
+          "min": -0.436379896,
+          "25%": -0.2212153655,
+          "50%": -0.2025795235,
+          "75%": 0.22103101600000002,
+          "max": 0.411649817
+        }
+      },
+      "Pvalue_Pearson": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 6419,
+        "stats": {
+          "count": 122344.0,
+          "mean": 9.101720182459249e-08,
+          "std": 1.2772265420007805e-07,
+          "min": 3.27e-30,
+          "25%": 2.53e-09,
+          "50%": 2.64e-08,
+          "75%": 1.33e-07,
+          "max": 5.15e-07
+        }
+      },
+      "FDR_Pearson": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 24367,
+        "stats": {
+          "count": 122344.0,
+          "mean": 0.0005416114989085312,
+          "std": 0.0025111292027812948,
+          "min": 5.6399999999999995e-24,
+          "25%": 3.92e-06,
+          "50%": 3.02e-05,
+          "75%": 0.000152614,
+          "max": 0.049676582
+        }
+      },
+      "Spearman": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 111452,
+        "stats": {
+          "count": 122344.0,
+          "mean": -0.02279910113325541,
+          "std": 0.23051765878939648,
+          "min": -0.406451576,
+          "25%": -0.227887318,
+          "50%": -0.204458455,
+          "75%": 0.21976488175,
+          "max": 0.413920835
+        }
+      },
+      "Pvalue_Spearman": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 8206,
+        "stats": {
+          "count": 122344.0,
+          "mean": 7.731383682166327e-08,
+          "std": 1.1821693124049744e-07,
+          "min": 4.630000000000001e-27,
+          "25%": 1.23e-09,
+          "50%": 1.75e-08,
+          "75%": 1.03e-07,
+          "max": 5.15e-07
+        }
+      },
+      "FDR_Spearman": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 26623,
+        "stats": {
+          "count": 122344.0,
+          "mean": 0.0006329635138108011,
+          "std": 0.0029685407203354193,
+          "min": 8.000000000000001e-21,
+          "25%": 1.92e-06,
+          "50%": 2.36e-05,
+          "75%": 0.00014019425,
+          "max": 0.048981983
+        }
+      }
+    }
+  },
+  "gwas": {
+    "name": "gwas",
+    "source_file": "gwas.csv",
+    "n_rows": 89884,
+    "n_cols": 14,
+    "columns": [
+      "SNP",
+      "Chr",
+      "Position",
+      "Score",
+      "MAF",
+      "Study",
+      "Phenotype",
+      "Phenotype ontology",
+      "Reference",
+      "Alteration",
+      "Genename",
+      "Function",
+      "Impact",
+      "Effect"
+    ],
+    "memory_mb": 51.19,
+    "fields": {
+      "SNP": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 49974,
+        "top_values": {
+          "_": 77,
+          "chr1_12760855": 38,
+          "chr5_11273146": 36,
+          "chr5_11273979": 36,
+          "chr5_17829858": 34
+        },
+        "examples": [
+          "chr4_1269036",
+          "chr4_1267038",
+          "chr4_1266038",
+          "chr4_1269179",
+          "chr4_1269163"
+        ]
+      },
+      "Chr": {
+        "dtype": "str",
+        "n_missing": 77,
+        "pct_missing": 0.0857,
+        "n_unique": 5,
+        "top_values": {
+          "chr5": 29339,
+          "chr1": 21676,
+          "chr3": 14470,
+          "chr4": 12693,
+          "chr2": 11629
+        },
+        "examples": [
+          "chr4",
+          "chr1",
+          "chr3",
+          "chr5",
+          "chr2"
+        ]
+      },
+      "Position": {
+        "dtype": "float64",
+        "n_missing": 77,
+        "pct_missing": 0.0857,
+        "n_unique": 49950,
+        "stats": {
+          "count": 89807.0,
+          "mean": 12172627.63498391,
+          "std": 7060832.12893878,
+          "min": 570.0,
+          "25%": 6942393.0,
+          "50%": 12392599.0,
+          "75%": 17321429.5,
+          "max": 30414901.0
+        }
+      },
+      "Score": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 30696,
+        "stats": {
+          "count": 89884.0,
+          "mean": 10.96662585239314,
+          "std": 4.36987826849854,
+          "min": 6.274250205,
+          "25%": 8.88052182975,
+          "50%": 9.976029294,
+          "75%": 11.83262983,
+          "max": 119.643133
+        }
+      },
+      "MAF": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 1181,
+        "stats": {
+          "count": 89884.0,
+          "mean": 0.039296827847269816,
+          "std": 0.057118947211488136,
+          "min": 0.010294118,
+          "25%": 0.013972056,
+          "50%": 0.021956088,
+          "75%": 0.041884817,
+          "max": 0.5
+        }
+      },
+      "Study": {
+        "dtype": "int64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 254,
+        "stats": {
+          "count": 89884.0,
+          "mean": 548.8576943616216,
+          "std": 162.59187886991054,
+          "min": 4.0,
+          "25%": 568.0,
+          "50%": 587.0,
+          "75%": 632.0,
+          "max": 768.0
+        }
+      },
+      "Phenotype": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 248,
+        "top_values": {
+          "LRDpBZ75": 11527,
+          "clim-gs10": 9666,
+          "clim-bio9": 5239,
+          "clim-bio4": 2933,
+          "clim-tmax1": 2513
+        },
+        "examples": [
+          "M216T665",
+          "M172T666",
+          "M130T666",
+          "clim-gs10",
+          "Na23"
+        ]
+      },
+      "Phenotype ontology": {
+        "dtype": "str",
+        "n_missing": 1261,
+        "pct_missing": 1.4029,
+        "n_unique": 44,
+        "top_values": {
+          "other miscellaneous trait": 60985,
+          "root morphology trait": 13502,
+          "days to flowering trait": 3446,
+          "metabolite content trait": 2406,
+          "leaf chlorosis": 1330
+        },
+        "examples": [
+          "metabolite content trait",
+          "other miscellaneous trait",
+          "sodium concentration",
+          "leaf chlorosis",
+          "cobalt concentration"
+        ]
+      },
+      "Reference": {
+        "dtype": "str",
+        "n_missing": 77,
+        "pct_missing": 0.0857,
+        "n_unique": 4,
+        "top_values": {
+          "G": 23402,
+          "C": 22981,
+          "T": 21863,
+          "A": 21561
+        },
+        "examples": [
+          "T",
+          "C",
+          "G",
+          "A"
+        ]
+      },
+      "Alteration": {
+        "dtype": "str",
+        "n_missing": 77,
+        "pct_missing": 0.0857,
+        "n_unique": 4,
+        "top_values": {
+          "A": 28290,
+          "T": 27312,
+          "C": 17308,
+          "G": 16897
+        },
+        "examples": [
+          "A",
+          "T",
+          "C",
+          "G"
+        ]
+      },
+      "Genename": {
+        "dtype": "str",
+        "n_missing": 52627,
+        "pct_missing": 58.5499,
+        "n_unique": 8376,
+        "top_values": {
+          "AT3G20910": 235,
+          "AT4G02930": 192,
+          "AT4G02850": 181,
+          "AT5G44800": 179,
+          "Exon_4_1977183_1977282": 154
+        },
+        "examples": [
+          "AT4G02860",
+          "AT4G02850",
+          "AT4G02840",
+          "AT4G02830",
+          "AT4G02820"
+        ]
+      },
+      "Function": {
+        "dtype": "str",
+        "n_missing": 72311,
+        "pct_missing": 80.4492,
+        "n_unique": 3,
+        "top_values": {
+          "MISSENSE": 10103,
+          "SILENT": 7247,
+          "NONSENSE": 223
+        },
+        "examples": [
+          "SILENT",
+          "MISSENSE",
+          "NONSENSE"
+        ]
+      },
+      "Impact": {
+        "dtype": "str",
+        "n_missing": 7412,
+        "pct_missing": 8.2462,
+        "n_unique": 4,
+        "top_values": {
+          "MODIFIER": 64899,
+          "MODERATE": 10063,
+          "LOW": 7248,
+          "HIGH": 262
+        },
+        "examples": [
+          "LOW",
+          "MODERATE",
+          "MODIFIER",
+          "HIGH"
+        ]
+      },
+      "Effect": {
+        "dtype": "str",
+        "n_missing": 7412,
+        "pct_missing": 8.2462,
+        "n_unique": 12,
+        "top_values": {
+          "INTERGENIC": 45215,
+          "INTRON": 14262,
+          "NON_SYNONYMOUS_CODING": 10063,
+          "SYNONYMOUS_CODING": 7235,
+          "UTR_3_PRIME": 2921
+        },
+        "examples": [
+          "SYNONYMOUS_CODING",
+          "NON_SYNONYMOUS_CODING",
+          "INTERGENIC",
+          "INTRON",
+          "UTR_3_PRIME"
+        ]
+      }
+    }
+  },
+  "gwaseqtl": {
+    "name": "gwaseqtl",
+    "source_file": "gwaseqtl.csv",
+    "n_rows": 286032,
+    "n_cols": 10,
+    "columns": [
+      "eQTL loci",
+      "eQTL Allels",
+      "eQTL Alteration",
+      "GWAS loci",
+      "GWAS Allels",
+      "GWAS Alteration",
+      "LD",
+      "GWAS phenotype",
+      "Type",
+      "Phenotype ontology"
+    ],
+    "memory_mb": 149.04,
+    "fields": {
+      "eQTL loci": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 2661,
+        "top_values": {
+          "chr1_14119557": 1784,
+          "chr3_446110": 1745,
+          "chr1_15854803": 1711,
+          "chr1_15854804": 1711,
+          "chr1_15858832": 1702
+        },
+        "examples": [
+          "chr1_15450187",
+          "chr1_12571432",
+          "chr1_27710604",
+          "chr1_15024723",
+          "chr2_4850088"
+        ]
+      },
+      "eQTL Allels": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 74,
+        "top_values": {
+          "G_A": 62462,
+          "C_T": 59640,
+          "A_G": 24292,
+          "A_T": 21730,
+          "T_C": 17464
+        },
+        "examples": [
+          "T_A",
+          "G_A",
+          "C_T",
+          "A_G",
+          "C_G/C_T"
+        ]
+      },
+      "eQTL Alteration": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 316,
+        "top_values": {
+          "42": 19352,
+          "43": 16123,
+          "40": 14848,
+          "37": 14482,
+          "45": 12073
+        },
+        "examples": [
+          "30",
+          "21",
+          "45",
+          "9",
+          "40"
+        ]
+      },
+      "GWAS loci": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 6968,
+        "top_values": {
+          "chr1_15650600": 1747,
+          "chr1_14056466": 1627,
+          "chr1_16131967": 1427,
+          "chr1_15648461": 1412,
+          "chr1_15624029": 1402
+        },
+        "examples": [
+          "chr1_14282807",
+          "chr1_15524781",
+          "chr1_14227895",
+          "chr1_14308654",
+          "chr1_15417705"
+        ]
+      },
+      "GWAS Allels": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 4,
+        "top_values": {
+          "C": 81834,
+          "G": 76955,
+          "A": 64859,
+          "T": 62384
+        },
+        "examples": [
+          "A",
+          "C",
+          "G",
+          "T"
+        ]
+      },
+      "GWAS Alteration": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 4,
+        "top_values": {
+          "T": 95916,
+          "A": 86503,
+          "G": 55921,
+          "C": 47692
+        },
+        "examples": [
+          "G",
+          "T",
+          "A",
+          "C"
+        ]
+      },
+      "LD": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 22501,
+        "stats": {
+          "count": 286032.0,
+          "mean": 0.5807981296008663,
+          "std": 0.08747829842980183,
+          "min": 0.500008741,
+          "25%": 0.520218043,
+          "50%": 0.550397924,
+          "75%": 0.608716932,
+          "max": 1.0
+        }
+      },
+      "GWAS phenotype": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 94,
+        "top_values": {
+          "clim-gs10": 77184,
+          "clim-tmin2": 45042,
+          "clim-tmin11": 40307,
+          "clim-bio6": 17606,
+          "clim-tmin1": 17432
+        },
+        "examples": [
+          "clim-tmin11",
+          "clim-tmin12",
+          "clim-tmin2",
+          "clim-tmin3",
+          "clim-tmin4"
+        ]
+      },
+      "Type": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 3,
+        "top_values": {
+          "trans": 207996,
+          "cis": 61367,
+          "trans/cis": 16669
+        },
+        "examples": [
+          "trans",
+          "trans/cis",
+          "cis"
+        ]
+      },
+      "Phenotype ontology": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 18,
+        "top_values": {
+          "other miscellaneous trait": 258942,
+          "leaf chlorosis": 8858,
+          "root morphology trait": 5886,
+          "days to flowering trait": 3683,
+          "metabolite content trait": 2270
+        },
+        "examples": [
+          "other miscellaneous trait",
+          "cobalt concentration",
+          "DSDS50",
+          "days to flowering trait",
+          "flowering time trait"
+        ]
+      }
+    }
+  },
+  "phenotypepathway": {
+    "name": "phenotypepathway",
+    "source_file": "phenotypepathway.csv",
+    "n_rows": 1354,
+    "n_cols": 10,
+    "columns": [
+      "Phenotype",
+      "Phenotype ontology",
+      "Pathway",
+      "Pearson",
+      "Pvalue_Pearson",
+      "FDR_Pearson",
+      "Spearman",
+      "Pvalue_Spearman",
+      "FDR_Spearman",
+      "Study"
+    ],
+    "memory_mb": 0.39,
+    "fields": {
+      "Phenotype": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 88,
+        "top_values": {
+          "Se82": 182,
+          "Co59": 179,
+          "S34": 174,
+          "Mo98": 120,
+          "K39": 96
+        },
+        "examples": [
+          "2W",
+          "As",
+          "As75",
+          "At1 CFU2",
+          "Cd111"
+        ]
+      },
+      "Phenotype ontology": {
+        "dtype": "str",
+        "n_missing": 23,
+        "pct_missing": 1.6987,
+        "n_unique": 22,
+        "top_values": {
+          "other miscellaneous trait": 322,
+          "selenium concentration": 182,
+          "cobalt concentration": 179,
+          "sulfur concentration": 174,
+          "molybdenum concentration": 120
+        },
+        "examples": [
+          "days to flowering trait",
+          "bacterial disease resistance",
+          "arsenic concentration",
+          "cadmium concentration",
+          "other miscellaneous trait"
+        ]
+      },
+      "Pathway": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 403,
+        "top_values": {
+          "PWYQT-4450": 42,
+          "PWY-7618": 39,
+          "PWY-5698": 37,
+          "PWY-5267": 33,
+          "LEUSYN-PWY": 31
+        },
+        "examples": [
+          "PWY-1081",
+          "GLYCOLYSIS",
+          "PWY-1042",
+          "PWY-3841",
+          "PWY-5484"
+        ]
+      },
+      "Pearson": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 1275,
+        "stats": {
+          "count": 1354.0,
+          "mean": -0.013395410896602662,
+          "std": 0.37414343641869996,
+          "min": -0.657141527,
+          "25%": -0.355412775,
+          "50%": -0.3047201765,
+          "75%": 0.34762718275,
+          "max": 0.752225337
+        }
+      },
+      "Pvalue_Pearson": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 1233,
+        "stats": {
+          "count": 1354.0,
+          "mean": 1.0482974818811702e-05,
+          "std": 7.973826363923887e-05,
+          "min": 1.21e-72,
+          "25%": 1.6024999999999999e-22,
+          "50%": 1.77e-17,
+          "75%": 6.0549999999999995e-12,
+          "max": 0.001215119
+        }
+      },
+      "FDR_Pearson": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 1087,
+        "stats": {
+          "count": 1354.0,
+          "mean": 0.0009474689502986103,
+          "std": 0.005684346239501448,
+          "min": 7.1e-70,
+          "25%": 2.7725e-21,
+          "50%": 1.1950000000000002e-16,
+          "75%": 1.09025e-09,
+          "max": 0.048449161
+        }
+      },
+      "Spearman": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 1275,
+        "stats": {
+          "count": 1354.0,
+          "mean": -0.02093593118242245,
+          "std": 0.4292770509351355,
+          "min": -0.689162562,
+          "25%": -0.423569557,
+          "50%": -0.313700977,
+          "75%": 0.4048256225,
+          "max": 0.751552795
+        }
+      },
+      "Pvalue_Spearman": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 1239,
+        "stats": {
+          "count": 1354.0,
+          "mean": 1.2191621812558479e-05,
+          "std": 0.00010787496347296553,
+          "min": 7.239999999999999e-82,
+          "25%": 6.0775e-34,
+          "50%": 1.03e-24,
+          "75%": 1.62e-14,
+          "max": 0.002492168
+        }
+      },
+      "FDR_Spearman": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 1145,
+        "stats": {
+          "count": 1354.0,
+          "mean": 0.0008686137075890875,
+          "std": 0.0053699560282475,
+          "min": 4.24e-79,
+          "25%": 4.6325e-33,
+          "50%": 4.569999999999999e-24,
+          "75%": 3.4574999999999998e-12,
+          "max": 0.048985358
+        }
+      },
+      "Study": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 7,
+        "top_values": {
+          "study16": 969,
+          "study34": 327,
+          "study2": 27,
+          "study1": 13,
+          "study19": 13
+        },
+        "examples": [
+          "study1",
+          "study16",
+          "study34",
+          "study2",
+          "study19"
+        ]
+      }
+    }
+  },
+  "twas": {
+    "name": "twas",
+    "source_file": "twas.csv",
+    "n_rows": 62754,
+    "n_cols": 10,
+    "columns": [
+      "Phenotype",
+      "Phenotype ontology",
+      "Gene",
+      "Pearson",
+      "Pvalue_Pearson",
+      "FDR_Pearson",
+      "Spearman",
+      "Pvalue_Spearman",
+      "FDR_Spearman",
+      "Study"
+    ],
+    "memory_mb": 17.95,
+    "fields": {
+      "Phenotype": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 145,
+        "top_values": {
+          "Na23": 10689,
+          "Co59": 9648,
+          "Mo98": 5505,
+          "Zn66": 5274,
+          "S34": 5034
+        },
+        "examples": [
+          "0W GH FT",
+          "0W GH LN",
+          "2W",
+          "As75",
+          "B11"
+        ]
+      },
+      "Phenotype ontology": {
+        "dtype": "str",
+        "n_missing": 1710,
+        "pct_missing": 2.7249,
+        "n_unique": 29,
+        "top_values": {
+          "sodium concentration": 10689,
+          "cobalt concentration": 9648,
+          "molybdenum concentration": 5505,
+          "zinc concentration": 5274,
+          "other miscellaneous trait": 5212
+        },
+        "examples": [
+          "days to flowering trait",
+          "leaf number",
+          "arsenic concentration",
+          "boron concentration",
+          "cadmium concentration"
+        ]
+      },
+      "Gene": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 16897,
+        "top_values": {
+          "AT3G21690": 45,
+          "AT4G23670": 43,
+          "AT3G21610": 41,
+          "AT3G49680": 41,
+          "AT3G63310": 41
+        },
+        "examples": [
+          "AT2G17120",
+          "AT2G29730",
+          "AT3G57230",
+          "AT1G14370",
+          "AT1G25390"
+        ]
+      },
+      "Pearson": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 62701,
+        "stats": {
+          "count": 62754.0,
+          "mean": -0.006100171445947667,
+          "std": 0.41537739234012694,
+          "min": -0.76782246,
+          "25%": -0.37620832825,
+          "50%": -0.304955971,
+          "75%": 0.37512160925,
+          "max": 0.861757224
+        }
+      },
+      "Pvalue_Pearson": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 29477,
+        "stats": {
+          "count": 62754.0,
+          "mean": 2.467897961030577e-05,
+          "std": 0.00014996208350025536,
+          "min": 2.67e-160,
+          "25%": 7.55e-31,
+          "50%": 7.755000000000001e-21,
+          "75%": 5.2e-16,
+          "max": 0.00229891
+        }
+      },
+      "FDR_Pearson": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 27582,
+        "stats": {
+          "count": 62754.0,
+          "mean": 0.0014804557671992983,
+          "std": 0.006725667339303275,
+          "min": 6.45e-156,
+          "25%": 1.0200000000000001e-29,
+          "50%": 8.06e-20,
+          "75%": 3.82e-15,
+          "max": 0.049992619
+        }
+      },
+      "Spearman": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 62704,
+        "stats": {
+          "count": 62754.0,
+          "mean": -0.017730138480065015,
+          "std": 0.4576700422116477,
+          "min": -0.820529692,
+          "25%": -0.43897719074999997,
+          "50%": -0.3148492185,
+          "75%": 0.42887409575,
+          "max": 0.851948052
+        }
+      },
+      "Pvalue_Spearman": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 34381,
+        "stats": {
+          "count": 62754.0,
+          "mean": 2.780753947016749e-05,
+          "std": 0.00018702788633322696,
+          "min": 2.7900000000000003e-156,
+          "25%": 1.1425000000000001e-41,
+          "50%": 6.345e-29,
+          "75%": 1.51e-19,
+          "max": 0.003224607
+        }
+      },
+      "FDR_Spearman": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 32844,
+        "stats": {
+          "count": 62754.0,
+          "mean": 0.001147425415907724,
+          "std": 0.0056638000349423,
+          "min": 6.749999999999999e-152,
+          "25%": 1.1224999999999998e-40,
+          "50%": 3.97e-28,
+          "75%": 1.07e-18,
+          "max": 0.04993082
+        }
+      },
+      "Study": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 11,
+        "top_values": {
+          "study16": 53237,
+          "study34": 5252,
+          "study2": 3586,
+          "study38": 232,
+          "study1": 215
+        },
+        "examples": [
+          "study1",
+          "study16",
+          "study38",
+          "study34",
+          "study43"
+        ]
+      }
+    }
+  },
+  "ewas": {
+    "name": "ewas",
+    "source_file": "ewas.csv",
+    "n_rows": 3993378,
+    "n_cols": 10,
+    "columns": [
+      "Phenotype",
+      "Phenotype ontology",
+      "Methylation",
+      "Pearson",
+      "Pvalue_Pearson",
+      "FDR_Pearson",
+      "Spearman",
+      "Pvalue_Spearman",
+      "FDR_Spearman",
+      "Study"
+    ],
+    "memory_mb": 1153.17,
+    "fields": {
+      "Phenotype": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 114,
+        "top_values": {
+          "Na23": 771710,
+          "Co59": 705051,
+          "Zn66": 571851,
+          "Mo98": 495571,
+          "K39": 269892
+        },
+        "examples": [
+          "FT10",
+          "FT16",
+          "As75",
+          "B11",
+          "Cd111"
+        ]
+      },
+      "Phenotype ontology": {
+        "dtype": "str",
+        "n_missing": 7204,
+        "pct_missing": 0.1804,
+        "n_unique": 38,
+        "top_values": {
+          "sodium concentration": 771710,
+          "cobalt concentration": 705051,
+          "zinc concentration": 571851,
+          "molybdenum concentration": 495571,
+          "potassium concentration": 269892
+        },
+        "examples": [
+          "days to flowering trait",
+          "arsenic concentration",
+          "boron concentration",
+          "cadmium concentration",
+          "cobalt concentration"
+        ]
+      },
+      "Methylation": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 1222388,
+        "top_values": {
+          "5_7532747_CG": 31,
+          "5_8612498_CG": 29,
+          "5_7532726_CG": 27,
+          "4_8802310_CG": 26,
+          "1_9925498_CHG": 25
+        },
+        "examples": [
+          "1_13143762_CG",
+          "1_13143995_CG",
+          "1_13144462_CG",
+          "1_13144628_CG",
+          "1_13144633_CG"
+        ]
+      },
+      "Pearson": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 3993313,
+        "stats": {
+          "count": 3993378.0,
+          "mean": -0.006090884219474254,
+          "std": 0.4348884677506827,
+          "min": -1.0,
+          "25%": -0.39852302444626475,
+          "50%": -0.304218789459271,
+          "75%": 0.40239335998867976,
+          "max": 0.999644607
+        }
+      },
+      "Pvalue_Pearson": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 3838582,
+        "stats": {
+          "count": 3993378.0,
+          "mean": 2.283177004849426e-06,
+          "std": 3.549013031717134e-05,
+          "min": 8.389030290255621e-161,
+          "25%": 8.934233783146505e-39,
+          "50%": 1.21417518415774e-24,
+          "75%": 7.850097437548324e-18,
+          "max": 0.001046332
+        }
+      },
+      "FDR_Pearson": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 3662110,
+        "stats": {
+          "count": 3993378.0,
+          "mean": 0.00022319849988279038,
+          "std": 0.0025889570828749016,
+          "min": 1.4477830420074602e-154,
+          "25%": 7.169547194595045e-38,
+          "50%": 1.478639471156965e-23,
+          "75%": 7.659998316796428e-17,
+          "max": 0.04999688
+        }
+      },
+      "Spearman": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 3992697,
+        "stats": {
+          "count": 3993378.0,
+          "mean": -0.011405966792904785,
+          "std": 0.4607326189031086,
+          "min": -1.0,
+          "25%": -0.43194161533258574,
+          "50%": -0.31128514787725,
+          "75%": 0.42650129951897153,
+          "max": 0.988303691203524
+        }
+      },
+      "Pvalue_Spearman": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 3992631,
+        "stats": {
+          "count": 3993378.0,
+          "mean": 2.375329535831361e-06,
+          "std": 4.16466583903476e-05,
+          "min": 0.0,
+          "25%": 9.491074342164387e-44,
+          "50%": 7.521209593680425e-29,
+          "75%": 1.0895621941383175e-20,
+          "max": 0.0015070787181506
+        }
+      },
+      "FDR_Spearman": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 3803781,
+        "stats": {
+          "count": 3993378.0,
+          "mean": 0.00029721835722382124,
+          "std": 0.003116056771162065,
+          "min": 0.0,
+          "25%": 9.52566618778867e-43,
+          "50%": 6.5191951129056905e-28,
+          "75%": 7.882120180129003e-20,
+          "max": 0.0499979928981105
+        }
+      },
+      "Study": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 14,
+        "top_values": {
+          "study16": 3803909,
+          "study34": 138965,
+          "study19": 27405,
+          "study2": 11478,
+          "study22": 5834
+        },
+        "examples": [
+          "study12",
+          "study1",
+          "study16",
+          "study19",
+          "study22"
+        ]
+      }
+    }
+  },
+  "ciseqtl": {
+    "name": "ciseqtl",
+    "source_file": "ciseqtl.xls",
+    "n_rows": 11796,
+    "n_cols": 8,
+    "columns": [
+      "SNP",
+      "Alleles",
+      "Alteration number",
+      "Gene",
+      "Beta",
+      "t-stat",
+      "p-value",
+      "FDR"
+    ],
+    "memory_mb": 3.02,
+    "fields": {
+      "SNP": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 10509,
+        "top_values": {
+          "chr4_16921004": 9,
+          "chr4_11443907": 9,
+          "chr4_16921074": 7,
+          "chr3_17914389": 7,
+          "chr1_21938263": 7
+        },
+        "examples": [
+          "chr4_16921004",
+          "chr4_16921058",
+          "chr4_16921082",
+          "chr4_16921087",
+          "chr1_4413178"
+        ]
+      },
+      "Alleles": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 452,
+        "top_values": {
+          "G_A": 1622,
+          "C_T": 1488,
+          "T_C": 1235,
+          "A_G": 1224,
+          "T_A": 960
+        },
+        "examples": [
+          "G_A",
+          "C_T",
+          "T_G",
+          "G_C",
+          "T_A"
+        ]
+      },
+      "Alteration number": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 1248,
+        "top_values": {
+          "42": 183,
+          "45": 178,
+          "40": 178,
+          "46": 170,
+          "44": 167
+        },
+        "examples": [
+          "8",
+          "7",
+          "8/1",
+          "49",
+          "7/2"
+        ]
+      },
+      "Gene": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 2643,
+        "top_values": {
+          "AT5G65687": 338,
+          "AT5G25130": 314,
+          "AT5G65880": 230,
+          "AT2G22920": 164,
+          "AT5G66830": 135
+        },
+        "examples": [
+          "AT4G34410",
+          "AT1G13310",
+          "AT5G26300",
+          "AT5G65687",
+          "AT4G23150"
+        ]
+      },
+      "Beta": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 11470,
+        "stats": {
+          "count": 11796.0,
+          "mean": 0.4216295044198881,
+          "std": 0.4011770895820744,
+          "min": -1.437584039,
+          "25%": 0.34093691475,
+          "50%": 0.468491918,
+          "75%": 0.6074418975,
+          "max": 1.909079646
+        }
+      },
+      "t-stat": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 11471,
+        "stats": {
+          "count": 11796.0,
+          "mean": 4.091210692246694,
+          "std": 3.5283644978865727,
+          "min": -7.840606824,
+          "25%": 5.0131582505,
+          "50%": 5.183342422000001,
+          "75%": 5.482547756,
+          "max": 10.85175201
+        }
+      },
+      "p-value": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 2822,
+        "stats": {
+          "count": 11796.0,
+          "mean": 3.2419886482463323e-07,
+          "std": 2.9446763872340846e-07,
+          "min": 3.66e-25,
+          "25%": 5.27e-08,
+          "50%": 2.43e-07,
+          "75%": 5.52e-07,
+          "max": 9.7e-07
+        }
+      },
+      "FDR": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 6373,
+        "stats": {
+          "count": 11796.0,
+          "mean": 0.024480930108033858,
+          "std": 0.015482154721710285,
+          "min": 2.22e-16,
+          "25%": 0.010867064,
+          "50%": 0.02501613,
+          "75%": 0.037935368000000004,
+          "max": 0.049974052
+        }
+      }
+    }
+  },
+  "transeqtl": {
+    "name": "transeqtl",
+    "source_file": "transeqtl.xls",
+    "n_rows": 10118,
+    "n_cols": 8,
+    "columns": [
+      "SNP",
+      "Alleles",
+      "Alteration number",
+      "Gene",
+      "Beta",
+      "t-stat",
+      "p-value",
+      "FDR"
+    ],
+    "memory_mb": 2.59,
+    "fields": {
+      "SNP": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 6776,
+        "top_values": {
+          "chr1_11301651": 101,
+          "chr1_11301693": 101,
+          "chr1_11303807": 101,
+          "chr1_11310170": 101,
+          "chr1_11312184": 101
+        },
+        "examples": [
+          "chr2_6697477",
+          "chr1_1705820",
+          "chr3_15797568",
+          "chr1_11299360",
+          "chr1_11306648"
+        ]
+      },
+      "Alleles": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 681,
+        "top_values": {
+          "G_A": 1642,
+          "C_T": 1540,
+          "T_C": 880,
+          "A_G": 828,
+          "A_T": 657
+        },
+        "examples": [
+          "C_T",
+          "G_A",
+          "A_C",
+          "G_T",
+          "T_C"
+        ]
+      },
+      "Alteration number": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 422,
+        "top_values": {
+          "9": 1164,
+          "8": 1015,
+          "10": 881,
+          "7": 756,
+          "11": 513
+        },
+        "examples": [
+          "7",
+          "8",
+          "10",
+          "10/1",
+          "9"
+        ]
+      },
+      "Gene": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 580,
+        "top_values": {
+          "AT3G32092": 1421,
+          "AT1G13310": 1386,
+          "AT2G27440": 360,
+          "AT1G47920": 314,
+          "AT4G13680": 311
+        },
+        "examples": [
+          "AT2G27440",
+          "AT2G27120",
+          "AT1G20130",
+          "AT4G34410",
+          "AT3G14640"
+        ]
+      },
+      "Beta": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 8593,
+        "stats": {
+          "count": 10118.0,
+          "mean": 0.691043929655169,
+          "std": 0.5423526969162911,
+          "min": -1.171314947,
+          "25%": 0.28818081325,
+          "50%": 0.5396709415000001,
+          "75%": 1.13135137425,
+          "max": 2.315360303
+        }
+      },
+      "t-stat": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 8593,
+        "stats": {
+          "count": 10118.0,
+          "mean": 7.329623083796995,
+          "std": 3.3163156351069185,
+          "min": -12.35451333,
+          "25%": 7.433221711250001,
+          "50%": 7.732438985,
+          "75%": 8.26435991425,
+          "max": 18.10012921
+        }
+      },
+      "p-value": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 3850,
+        "stats": {
+          "count": 10118.0,
+          "mean": 2.0305687777665292e-13,
+          "std": 3.047080966787534e-13,
+          "min": 1.06e-58,
+          "25%": 6.782499999999999e-16,
+          "50%": 3.47e-14,
+          "75%": 2.96e-13,
+          "max": 1.18e-12
+        }
+      },
+      "FDR": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 3693,
+        "stats": {
+          "count": 10118.0,
+          "mean": 0.008604357276339814,
+          "std": 0.012912202409819508,
+          "min": 4.51e-48,
+          "25%": 2.8725e-05,
+          "50%": 0.00147,
+          "75%": 0.0126,
+          "max": 0.0499
+        }
+      }
+    }
+  },
+  "environmenteqtl": {
+    "name": "environmenteqtl",
+    "source_file": "environmenteqtl.xlsx",
+    "n_rows": 68403,
+    "n_cols": 8,
+    "columns": [
+      "eQTL",
+      "Alleles",
+      "Alteration",
+      "Environment",
+      "Beta",
+      "p-value",
+      "FDR",
+      "type"
+    ],
+    "memory_mb": 20.28,
+    "fields": {
+      "eQTL": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 11593,
+        "top_values": {
+          "chr5_25983733": 19,
+          "chr5_26030954": 19,
+          "chr5_26026449": 19,
+          "chr5_25981406": 19,
+          "chr5_26015064": 19
+        },
+        "examples": [
+          "chr2_16719948",
+          "chr2_16715074",
+          "chr2_16720715",
+          "chr2_16719809",
+          "chr2_16708221"
+        ]
+      },
+      "Alleles": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 468,
+        "top_values": {
+          "G_A": 9812,
+          "C_T": 9509,
+          "A_G": 7485,
+          "T_C": 6921,
+          "T_A": 5411
+        },
+        "examples": [
+          "T_A",
+          "C_T",
+          "A_T",
+          "A_G",
+          "C_G"
+        ]
+      },
+      "Alteration": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 1140,
+        "top_values": {
+          "40": 1499,
+          "43": 1320,
+          "41": 1259,
+          "45": 1250,
+          "42": 1236
+        },
+        "examples": [
+          "73",
+          "69",
+          "70",
+          "71",
+          "75"
+        ]
+      },
+      "Environment": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 22,
+        "top_values": {
+          "bio3": 6191,
+          "Longitude": 5795,
+          "bio9": 4385,
+          "bio4": 4267,
+          "bio8": 4166
+        },
+        "examples": [
+          "Longitude",
+          "Elevation",
+          "bio3",
+          "bio9",
+          "bio18"
+        ]
+      },
+      "Beta": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 66466,
+        "stats": {
+          "count": 68403.0,
+          "mean": 0.017997014287209637,
+          "std": 0.5725853580259495,
+          "min": -2.074729668,
+          "25%": -0.475184736,
+          "50%": 0.207198968,
+          "75%": 0.509491554,
+          "max": 2.092423307
+        }
+      },
+      "p-value": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 49998,
+        "stats": {
+          "count": 68403.0,
+          "mean": 0.002048137240238499,
+          "std": 0.0026721908608521583,
+          "min": 5.29e-20,
+          "25%": 3.38e-05,
+          "50%": 0.000663614,
+          "75%": 0.0033375059999999996,
+          "max": 0.009768468
+        }
+      },
+      "FDR": {
+        "dtype": "float64",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 45348,
+        "stats": {
+          "count": 68403.0,
+          "mean": 0.013158559771195748,
+          "std": 0.014705154804212825,
+          "min": 2.4e-14,
+          "25%": 0.0006930975,
+          "50%": 0.006639835,
+          "75%": 0.022878245,
+          "max": 0.049993702
+        }
+      },
+      "type": {
+        "dtype": "str",
+        "n_missing": 0,
+        "pct_missing": 0.0,
+        "n_unique": 3,
+        "top_values": {
+          "cis": 44300,
+          "trans": 20264,
+          "cis/trans": 3839
+        },
+        "examples": [
+          "trans",
+          "cis",
+          "cis/trans"
+        ]
+      }
+    }
+  }
+}

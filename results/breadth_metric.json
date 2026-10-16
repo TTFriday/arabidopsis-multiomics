@@ -1,0 +1,138 @@
+{
+  "max_beta": {
+    "raw_spearman": 0.3127051400642081,
+    "raw_p": 2.372073511988468e-261,
+    "partial_controlling_npairs": 0.0008901119574223825,
+    "partial_p": 0.9236565860565432
+  },
+  "mean_beta": {
+    "raw_spearman": 0.02106004793429198,
+    "raw_p": 0.0233560959110326,
+    "chromosome_adjusted_pearson": -0.044227526215978905,
+    "chromosome_adjusted_p": 1.8995222072543451e-06,
+    "stratum_slope": -0.002190807331019936,
+    "stratum_mean_min": 0.5793390981989418,
+    "stratum_mean_max": 0.5135708630131579,
+    "stratum_ratio": 0.8864771333572252
+  },
+  "order_statistic": {
+    "spearman_expected_vs_observed": 0.9105263157894736,
+    "p": 6.246642663134221e-08,
+    "table": [
+      {
+        "breadth": 1,
+        "observed_mean_max": 0.5793390981989417,
+        "expected_if_exchangeable": 0.5320215593451771,
+        "ratio": 1.0889391379402067
+      },
+      {
+        "breadth": 2,
+        "observed_mean_max": 0.5889541819093633,
+        "expected_if_exchangeable": 0.6461785708513204,
+        "ratio": 0.9114418343112715
+      },
+      {
+        "breadth": 3,
+        "observed_mean_max": 0.6013520563422645,
+        "expected_if_exchangeable": 0.7143173971118557,
+        "ratio": 0.841855537571484
+      },
+      {
+        "breadth": 4,
+        "observed_mean_max": 0.6205501774111112,
+        "expected_if_exchangeable": 0.7631011974049556,
+        "ratio": 0.8131951299793377
+      },
+      {
+        "breadth": 5,
+        "observed_mean_max": 0.6438002062506494,
+        "expected_if_exchangeable": 0.8004082142827749,
+        "ratio": 0.8043398290552803
+      },
+      {
+        "breadth": 6,
+        "observed_mean_max": 0.6756552577221526,
+        "expected_if_exchangeable": 0.8320347204352367,
+        "ratio": 0.8120517583313325
+      },
+      {
+        "breadth": 7,
+        "observed_mean_max": 0.6501767993917963,
+        "expected_if_exchangeable": 0.8581653674380553,
+        "ratio": 0.7576357938246999
+      },
+      {
+        "breadth": 8,
+        "observed_mean_max": 0.6844675691656977,
+        "expected_if_exchangeable": 0.879602977858234,
+        "ratio": 0.7781551295248271
+      },
+      {
+        "breadth": 9,
+        "observed_mean_max": 0.6892771211502277,
+        "expected_if_exchangeable": 0.8998139401141967,
+        "ratio": 0.766021830093842
+      },
+      {
+        "breadth": 10,
+        "observed_mean_max": 0.7338981977356828,
+        "expected_if_exchangeable": 0.9167953159809032,
+        "ratio": 0.8005038692311227
+      },
+      {
+        "breadth": 11,
+        "observed_mean_max": 0.7803810739423329,
+        "expected_if_exchangeable": 0.9332567180584559,
+        "ratio": 0.8361912203169939
+      },
+      {
+        "breadth": 12,
+        "observed_mean_max": 0.8043250551861315,
+        "expected_if_exchangeable": 0.9480660601995572,
+        "ratio": 0.8483850323856443
+      },
+      {
+        "breadth": 13,
+        "observed_mean_max": 0.7880945874507936,
+        "expected_if_exchangeable": 0.9609568833282934,
+        "ratio": 0.8201144100463823
+      },
+      {
+        "breadth": 14,
+        "observed_mean_max": 0.7667314603026315,
+        "expected_if_exchangeable": 0.9724735611689803,
+        "ratio": 0.7884342473855714
+      },
+      {
+        "breadth": 15,
+        "observed_mean_max": 0.7931326021025641,
+        "expected_if_exchangeable": 0.9855992971366028,
+        "ratio": 0.8047211523047961
+      },
+      {
+        "breadth": 16,
+        "observed_mean_max": 0.7694765049354838,
+        "expected_if_exchangeable": 0.9974346764834285,
+        "ratio": 0.771455537969025
+      },
+      {
+        "breadth": 17,
+        "observed_mean_max": 0.7602120109999999,
+        "expected_if_exchangeable": 1.0051544510873218,
+        "ratio": 0.7563136293906311
+      },
+      {
+        "breadth": 18,
+        "observed_mean_max": 0.7963308763703704,
+        "expected_if_exchangeable": 1.0161679912886112,
+        "ratio": 0.7836606576837127
+      },
+      {
+        "breadth": 19,
+        "observed_mean_max": 0.8491481519499999,
+        "expected_if_exchangeable": 1.0250446436927492,
+        "ratio": 0.8284011405502518
+      }
+    ]
+  }
+}

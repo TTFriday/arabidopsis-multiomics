@@ -1,0 +1,15 @@
+id,path,description
+Table S1,results/profile.md,Complete data profile of all ten tables
+Table S2,results/overlap_audit.md,Cross-layer identifier overlap audit
+Table S3,tables/env_autocorrelation.csv,Spatial autocorrelation of environmental effect size
+Table S4,tables/env_clustering_by_chromosome.csv,Clustering statistics by chromosome
+Table S5,tables/env_breadth_effect.csv,Environmental breadth versus effect size
+Table S6,tables/env_locus_architecture.csv,Per-locus environmental architecture
+Table S7,tables/env_regulatory_class_summary.csv,Regulatory class summary
+Table S8,tables/trait_class_summary.csv,Trait class summary
+Table S9,tables/conv_layer_cooccurrence.csv,Layer co-occurrence across genes
+Table S10,tables/conv_trait_panel.csv,Three-layer trait panel
+Table S11,tables/conv_gene_multilayer.csv,Per-gene multi-layer evidence matrix
+Table S12,results/env_locus_nearest_gene.csv,Environment locus nearest-gene assignments
+Table S13,tables/trait_layer_panel.csv,Cohort-matched trait layer panel
+Table S14,tables/conv_gene_enrichment.csv,Gene-level layer enrichment

@@ -1,0 +1,112 @@
+{
+  "format": "docx",
+  "verdict": "pass",
+  "checks": [
+    {
+      "id": "package",
+      "status": "pass"
+    },
+    {
+      "id": "contains",
+      "status": "pass",
+      "text": "Slope"
+    },
+    {
+      "id": "contains",
+      "status": "pass",
+      "text": "Table 7."
+    },
+    {
+      "id": "contains",
+      "status": "pass",
+      "text": "bp per unit"
+    },
+    {
+      "id": "contains",
+      "status": "pass",
+      "text": "Table 6."
+    }
+  ],
+  "summary": {
+    "paragraphs": 626,
+    "tables": [
+      {
+        "rows": 1,
+        "columns": 2
+      },
+      {
+        "rows": 1,
+        "columns": 2
+      },
+      {
+        "rows": 1,
+        "columns": 2
+      },
+      {
+        "rows": 6,
+        "columns": 6
+      },
+      {
+        "rows": 1,
+        "columns": 2
+      },
+      {
+        "rows": 1,
+        "columns": 2
+      },
+      {
+        "rows": 1,
+        "columns": 2
+      },
+      {
+        "rows": 1,
+        "columns": 2
+      },
+      {
+        "rows": 1,
+        "columns": 2
+      },
+      {
+        "rows": 11,
+        "columns": 6
+      },
+      {
+        "rows": 23,
+        "columns": 9
+      },
+      {
+        "rows": 4,
+        "columns": 6
+      },
+      {
+        "rows": 3,
+        "columns": 14
+      },
+      {
+        "rows": 6,
+        "columns": 8
+      },
+      {
+        "rows": 6,
+        "columns": 2
+      }
+    ],
+    "sections": [
+      {
+        "page_twips": {
+          "w": "11906",
+          "h": "16838"
+        },
+        "margins_twips": {
+          "top": "1304",
+          "right": "1304",
+          "bottom": "1304",
+          "left": "1304",
+          "header": "720",
+          "footer": "720",
+          "gutter": "0"
+        }
+      }
+    ]
+  }
+}

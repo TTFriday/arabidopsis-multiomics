@@ -1,0 +1,8 @@
+{
+  "obs_cis": 8125,
+  "obs_trans": 4030,
+  "null_cis_mean": 5279.3675,
+  "null_trans_mean": 3376.8405,
+  "n_env_genes_near10kb": 4602,
+  "n_joint_universe": 18612
+}

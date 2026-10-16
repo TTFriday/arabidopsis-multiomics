@@ -1,0 +1,109 @@
+{
+  "fdr_reproducibility": {
+    "EWAS": {
+      "n_rows": 3993378,
+      "median_abs_diff": 0.019224138999999998,
+      "p90_abs_diff": 0.0494804929
+    },
+    "TWAS": {
+      "n_rows": 62754,
+      "median_abs_diff": 2.29553e-05,
+      "p90_abs_diff": 0.047455395
+    },
+    "epathway": {
+      "n_rows": 122344,
+      "median_abs_diff": 4.83487e-05,
+      "p90_abs_diff": 0.003332112600000005
+    },
+    "ppath": {
+      "n_rows": 1354,
+      "median_abs_diff": 1.6233499999999999e-06,
+      "p90_abs_diff": 0.019038896799999986
+    }
+  },
+  "n_rows_significant_global_bh": {
+    "EWAS": 3993378,
+    "TWAS": 62754,
+    "epathway": 122344,
+    "ppath": 1354
+  },
+  "n_rows_released": {
+    "EWAS": 3993378,
+    "TWAS": 62754,
+    "epathway": 122344,
+    "ppath": 1354
+  },
+  "cohort_matched_pairs": 47,
+  "wilcoxon_sig_features": {
+    "W": 1.0,
+    "p": 2.842170943040401e-14
+  },
+  "wilcoxon_sig_effect_size": {
+    "W": 308.0,
+    "p": 0.00606606012324562
+  },
+  "n_traits_methylation_more_features": 46,
+  "n_traits_methylation_larger_effect": 33,
+  "spearman_testset_size": {
+    "rho": 0.5885108004442096,
+    "p": 1.3567304633392128e-05
+  },
+  "spearman_effect_size": {
+    "rho": 0.6170212765957447,
+    "p": 3.8565708530020554e-06
+  },
+  "cohort_ratio_vs_sig_ratio": {
+    "rho": 0.9998843663274747,
+    "p": 1.8406721482001397e-83
+  },
+  "ols_adjusted": {
+    "slope": 3.307878322128916,
+    "p": 6.083178258592074e-86,
+    "intercept": 0.0013201330533175737,
+    "intercept_p": 0.8914669474195476,
+    "r2": 0.9999757977859695
+  },
+  "trait_class_summary": [
+    {
+      "trait_class": "climate",
+      "n": 16,
+      "med_ewas_sig": 8059.5,
+      "med_twas_sig": 62.0,
+      "n_meth_dom": 16,
+      "med_diff_absr": 0.031095485250000027
+    },
+    {
+      "trait_class": "ionome",
+      "n": 14,
+      "med_ewas_sig": 177752.5,
+      "med_twas_sig": 2800.5,
+      "n_meth_dom": 7,
+      "med_diff_absr": -8.176066468074117e-05
+    },
+    {
+      "trait_class": "other",
+      "n": 11,
+      "med_ewas_sig": 428.0,
+      "med_twas_sig": 57.0,
+      "n_meth_dom": 5,
+      "med_diff_absr": -0.011856048000000008
+    },
+    {
+      "trait_class": "phenology",
+      "n": 5,
+      "med_ewas_sig": 2001.0,
+      "med_twas_sig": 341.0,
+      "n_meth_dom": 5,
+      "med_diff_absr": 0.08507162999999995
+    },
+    {
+      "trait_class": "seed",
+      "n": 1,
+      "med_ewas_sig": 27405.0,
+      "med_twas_sig": 57.0,
+      "n_meth_dom": 0,
+      "med_diff_absr": -0.036865409000000016
+    }
+  ],
+  "n_shared_pathways": 286
+}

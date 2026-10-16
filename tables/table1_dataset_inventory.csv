@@ -1,0 +1,11 @@
+file,layer,n_rows,n_cols,key_columns,format
+ciseqtl.xls,cis-eQTL,11796,8,"SNP, Alleles, Gene, Beta, t-stat, p-value, FDR",legacy .xls (BIFF)
+transeqtl.xls,trans-eQTL,10118,8,"SNP, Alleles, Gene, Beta, t-stat, p-value, FDR",legacy .xls (BIFF)
+environmenteqtl.xlsx,environment-eQTL,68403,8,"eQTL, Alleles, Environment, Beta, p-value, FDR, type",.xlsx
+gwaseqtl.csv,GWAS-eQTL colocalisation,286032,10,"eQTL loci, GWAS loci, LD, GWAS phenotype, Type",GB18030 text
+gwas.csv,GWAS associations + annotation,89884,14,"SNP, Score, MAF, Study, Phenotype, Genename, Effect, Impact",UTF-8 text
+emqtl.csv,EMQTL (expression-methylation),265776,5,"Gene, Methylation, Pearson, Pvalue, FDR",UTF-8 text
+epathway.csv,methylation-pathway,122344,8,"Pathway, Methylation, Pearson, Spearman, FDR",UTF-8 text
+phenotypepathway.csv,phenotype-pathway,1354,10,"Phenotype, Pathway, Pearson, Spearman, FDR, Study",UTF-8 text
+twas.csv,TWAS (trait-gene),62754,10,"Phenotype, Gene, Pearson, Spearman, FDR, Study",UTF-8 text
+ewas.csv,EWAS (trait-methylation),3993378,10,"Phenotype, Methylation, Pearson, Spearman, FDR, Study",UTF-8 text

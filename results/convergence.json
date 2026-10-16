@@ -1,0 +1,280 @@
+{
+  "locus_matched_tests": [
+    {
+      "target": "environment",
+      "partner": "cis_eQTL",
+      "n_target": 11593,
+      "observed": 8125,
+      "expected": 5280.2675,
+      "sd": 40.4637114430943,
+      "z": 70.30330136672184,
+      "p_emp": 0.0004997501249375312,
+      "ratio": 1.538747800182472
+    },
+    {
+      "target": "environment",
+      "partner": "trans_eQTL",
+      "n_target": 11593,
+      "observed": 4030,
+      "expected": 3376.499,
+      "sd": 34.56547408903862,
+      "z": 18.906177832729888,
+      "p_emp": 0.0004997501249375312,
+      "ratio": 1.1935439637328489
+    },
+    {
+      "target": "environment",
+      "partner": "GWAS_eQTL_partner",
+      "n_target": 11593,
+      "observed": 431,
+      "expected": 233.73,
+      "sd": 10.766666150670783,
+      "z": 18.322291899771724,
+      "p_emp": 0.0004997501249375312,
+      "ratio": 1.84400804346896
+    },
+    {
+      "target": "environment",
+      "partner": "GWAS_association",
+      "n_target": 11593,
+      "observed": 488,
+      "expected": 266.967,
+      "sd": 11.413365454588757,
+      "z": 19.36615460877178,
+      "p_emp": 0.0004997501249375312,
+      "ratio": 1.827941281132125
+    }
+  ],
+  "n_env_loci": 11593,
+  "n_cis_loci": 10509,
+  "n_trans_loci": 6776,
+  "n_universe": 16672,
+  "n_env_genes_within10kb": 4602,
+  "median_env_locus_gene_distance": 1955.3982345536351,
+  "frac_env_loci_within10kb": 0.8998533597860778,
+  "gene_universe": 18719,
+  "gene_set_sizes": {
+    "environment": 4602,
+    "cis_eGene": 2643,
+    "trans_eGene": 580,
+    "methylation": 2645,
+    "trait_TWAS": 16897
+  },
+  "gene_enrichment": [
+    {
+      "layer_a": "cis_eGene",
+      "layer_b": "trait_TWAS",
+      "n_both": 1694,
+      "n_a": 2643,
+      "n_b": 16897,
+      "OR": 0.10250195336772518,
+      "p": 0.0,
+      "p_bh": 0.0
+    },
+    {
+      "layer_a": "methylation",
+      "layer_b": "trait_TWAS",
+      "n_both": 1799,
+      "n_a": 2645,
+      "n_b": 16897,
+      "OR": 0.1374647026346702,
+      "p": 5.4796590139559524e-279,
+      "p_bh": 2.739829506977976e-278
+    },
+    {
+      "layer_a": "trans_eGene",
+      "layer_b": "trait_TWAS",
+      "n_both": 220,
+      "n_a": 580,
+      "n_b": 16897,
+      "OR": 0.053573451126967944,
+      "p": 3.310342772053237e-222,
+      "p_bh": 1.1034475906844122e-221
+    },
+    {
+      "layer_a": "cis_eGene",
+      "layer_b": "trans_eGene",
+      "n_both": 344,
+      "n_a": 2643,
+      "n_b": 580,
+      "OR": 10.04298110453329,
+      "p": 5.667252890623011e-147,
+      "p_bh": 1.416813222655753e-146
+    },
+    {
+      "layer_a": "environment",
+      "layer_b": "cis_eGene",
+      "n_both": 737,
+      "n_a": 4602,
+      "n_b": 2643,
+      "OR": 1.2216486644612439,
+      "p": 2.7341162255919266e-05,
+      "p_bh": 5.468232451183853e-05
+    },
+    {
+      "layer_a": "environment",
+      "layer_b": "trait_TWAS",
+      "n_both": 4113,
+      "n_a": 4602,
+      "n_b": 16897,
+      "OR": 0.8770275536137964,
+      "p": 0.020346146136121405,
+      "p_bh": 0.03391024356020234
+    },
+    {
+      "layer_a": "environment",
+      "layer_b": "methylation",
+      "n_both": 678,
+      "n_a": 4602,
+      "n_b": 2645,
+      "OR": 1.0672658498248626,
+      "p": 0.18020638851828202,
+      "p_bh": 0.25743769788326004
+    },
+    {
+      "layer_a": "cis_eGene",
+      "layer_b": "methylation",
+      "n_both": 387,
+      "n_a": 2643,
+      "n_b": 2645,
+      "OR": 1.049767493356953,
+      "p": 0.415965166138976,
+      "p_bh": 0.51995645767372
+    },
+    {
+      "layer_a": "trans_eGene",
+      "layer_b": "methylation",
+      "n_both": 76,
+      "n_a": 580,
+      "n_b": 2645,
+      "OR": 0.9139187009953845,
+      "p": 0.5055246583434009,
+      "p_bh": 0.561694064826001
+    },
+    {
+      "layer_a": "environment",
+      "layer_b": "trans_eGene",
+      "n_both": 140,
+      "n_a": 4602,
+      "n_b": 580,
+      "OR": 0.9752964426877471,
+      "p": 0.8446774982884815,
+      "p_bh": 0.8446774982884815
+    }
+  ],
+  "layer_cooccurrence": [
+    {
+      "layer_a": "cis",
+      "layer_b": "trait",
+      "OR": 0.10250195336772518,
+      "p": 0.0,
+      "n_both": 1694,
+      "n_a": 2643,
+      "n_b": 16897,
+      "p_bh": 0.0
+    },
+    {
+      "layer_a": "methylation",
+      "layer_b": "trait",
+      "OR": 0.1374647026346702,
+      "p": 5.4796590139559524e-279,
+      "n_both": 1799,
+      "n_a": 2645,
+      "n_b": 16897,
+      "p_bh": 2.739829506977976e-278
+    },
+    {
+      "layer_a": "trans",
+      "layer_b": "trait",
+      "OR": 0.053573451126967944,
+      "p": 3.310342772053237e-222,
+      "n_both": 220,
+      "n_a": 580,
+      "n_b": 16897,
+      "p_bh": 1.1034475906844122e-221
+    },
+    {
+      "layer_a": "cis",
+      "layer_b": "trans",
+      "OR": 10.04298110453329,
+      "p": 5.667252890623011e-147,
+      "n_both": 344,
+      "n_a": 2643,
+      "n_b": 580,
+      "p_bh": 1.416813222655753e-146
+    },
+    {
+      "layer_a": "environment",
+      "layer_b": "cis",
+      "OR": 1.2216486644612439,
+      "p": 2.7341162255919266e-05,
+      "n_both": 737,
+      "n_a": 4602,
+      "n_b": 2643,
+      "p_bh": 5.468232451183853e-05
+    },
+    {
+      "layer_a": "environment",
+      "layer_b": "trait",
+      "OR": 0.8770275536137964,
+      "p": 0.020346146136121405,
+      "n_both": 4113,
+      "n_a": 4602,
+      "n_b": 16897,
+      "p_bh": 0.03391024356020234
+    },
+    {
+      "layer_a": "environment",
+      "layer_b": "methylation",
+      "OR": 1.0672658498248626,
+      "p": 0.18020638851828202,
+      "n_both": 678,
+      "n_a": 4602,
+      "n_b": 2645,
+      "p_bh": 0.25743769788326004
+    },
+    {
+      "layer_a": "cis",
+      "layer_b": "methylation",
+      "OR": 1.049767493356953,
+      "p": 0.415965166138976,
+      "n_both": 387,
+      "n_a": 2643,
+      "n_b": 2645,
+      "p_bh": 0.51995645767372
+    },
+    {
+      "layer_a": "trans",
+      "layer_b": "methylation",
+      "OR": 0.9139187009953845,
+      "p": 0.5055246583434009,
+      "n_both": 76,
+      "n_a": 580,
+      "n_b": 2645,
+      "p_bh": 0.561694064826001
+    },
+    {
+      "layer_a": "environment",
+      "layer_b": "trans",
+      "OR": 0.9752964426877471,
+      "p": 0.8446774982884815,
+      "n_both": 140,
+      "n_a": 4602,
+      "n_b": 580,
+      "p_bh": 0.8446774982884815
+    }
+  ],
+  "n_genes_by_layer_count": {
+    "1": 11467,
+    "2": 5994,
+    "3": 1126,
+    "4": 126,
+    "5": 6
+  },
+  "three_layer_trait_panel": 40,
+  "methylation_vs_cis_gene": {
+    "n": 387,
+    "spearman_n_meth_n_cis": 0.023562552860555926,
+    "spearman_effect": -0.039830286346758954
+  }
+}
